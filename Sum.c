@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, sum;
+    int n1, n2, sum;
     
     printf("Enter two integers: ");
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", &n1, &n2);
     
     // calculate the sum
-    sum = a + b;
+    sum = n1 + n2;
     
-    printf("%d + %d = %d", a, b, sum);
+    printf("%d + %d = %d", n1, n2, sum);
     
     return 0;
 }
